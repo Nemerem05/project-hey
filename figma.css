@@ -1,0 +1,360 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.general {
+    box-sizing: border-box;
+    width: 800px;
+    max-width: 750px;
+    height: 1900px;
+    background-color: #ffffff;
+    box-shadow: 0 1.65px 8.24px 0 rgba(0, 0, 0, 0.1);
+}
+nav {
+    width: 800px;
+    max-width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1.65px 8.24px 0 rgba(0, 0, 0, 0.1);
+    height: 45px;
+    background-color: #ffffff;
+    position: sticky;
+    z-index: 100;
+    padding-top: 10px 20px;
+}
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    width: 188.22px;
+    height: 10px;
+    gap: 16.47px;
+    line-height: 9.88px;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+.logo-name {
+    width: 48px;
+    height: 7px;
+    font: roboto;
+    size: 5.77px;
+    line-height: 6.76px;
+    color: #545be8;
+    padding-left: 10px;
+    font-weight: 700;
+}
+ a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+}
+button {
+    font-size: 10px;
+    cursor: pointer;
+    padding: 5.35px 20.18px;
+    border-radius: 4.12px;
+    gap: 4.12px;
+    width: 70.02px;
+    white-space: nowrap;
+    margin-right: 20px;
+    border: 0.41px;
+    font-weight: 400;
+}
+.logo img {
+    padding-left: 10px;
+}
+.nav-links a {
+    color: #101928;
+}
+.home a {
+    font-weight: 700;
+}
+.space {
+    flex-grow: 1;
+}
+.Log-in {
+    color: #545be8;
+}
+.Register {
+    background-color: #545be8;
+    color: #ffffff;
+}
+.section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    box-shadow: 0 1.65px 8.24px 0 rgba(0, 0, 0, 0.1);
+    width: 800px;
+    max-width: 750px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    padding-left: 10px;
+}
+.begins p {
+    color:#545be8;
+    line-height: 8.97px;
+    font: inter;
+    font-weight: 400;
+    size: 7.41px;
+    padding-top: 5px;
+}
+p span {
+    font-weight: 700;
+}
+h3 {
+    font-weight: 700;
+    font-size: 35px;
+    font: poppins;
+}
+p {
+    font-size: 10px;
+    font-weight: 400;
+    color: #969696;
+    margin-top: 2px;
+}
+h3 span {
+    font-weight: 700;
+    color: #545be8;
+}
+.begin button {
+    margin-left: 10px;
+    cursor: pointer;
+    width: 90px;
+    padding: 5.35px 20.18px;
+    font: inter;
+    border-radius: 4.12px;
+    border: 0.41px;
+    gap: 4.12px;
+    font-weight: 700;
+}
+.player {
+    white-space: nowrap;
+    color: #141e32;
+}
+.image {
+    position: absolute;
+    top: 65.49px;
+    left: 50%;
+}
+.section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4px;
+    padding-left: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 800px;
+    max-width: 750px;
+    height: 250px;
+    background-color: #ffffff;
+    margin-top: 1px;
+    box-shadow: 0 1.65px 8.24px 0 rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+}
+.give p {
+    color: #545be8;
+    font-weight: 400;
+    width: 149.92px;
+    height: 6px;
+}
+.get h4 {
+    color: #141e32;
+    size: 16.47px;
+    font: poppins;
+    font-weight: 700;
+}
+.latin p{
+    color: #dddddd;
+    font: poppins;
+    size: 5.77px;
+    font-weight: 400;
+}
+.gets p {
+    font-size: 8px;
+    font-weight: 400;
+    font: poppins;
+    color: #dddddd;
+}
+.professional {
+    background-color: #545be8;
+    width: 150px;
+    padding-left: 10px;
+    margin: 10px;
+    border-radius: 4.12px;
+    margin-bottom: 50px;
+}
+h6 {
+    color: #ffffff;
+    font: inter;
+    font-weight: 700;
+}
+.circle {
+    background-color: #ffffff;
+    width: 19.77px;
+    height: 19.77px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    object-fit: cover;
+}
+.certificate {
+    background-color: #545be8;
+    width: 150px;
+    padding-left: 10px;
+    margin: 10px;
+    border-radius: 4.12px;
+    margin-bottom: 50px;
+}
+.interest {
+    background-color: #545be8;
+    width: 150px;
+    padding-left: 10px;
+    margin: 10px;
+    border-radius: 4.12px;
+    margin-bottom: 50px;
+}
+.vector {
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    margin-bottom: 20px;
+}
+.section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #545be8;
+    width: 800px;
+    max-width: 750px;
+    height: 300px;
+}
+.section3 img {
+    top: 237.82px;
+    left: 61.78px;
+    padding-top: 20px;
+}
+.section3 h6 {
+    color: #f0c932;
+    font: inter;
+    font-weight: 400;
+
+}
+.section3 h3 {
+    color: #ffffff;
+    font-weight: 700;
+    size: 16.47px;
+}
+.section3 p {
+    color: #dddddd;
+    font-weight: 400;
+    font-size: 10px;
+}
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span {
+    color:#f0c932;
+    font-size: 16px;
+}
+.data p {
+    color: #ffffff;
+    text-align: center;
+}
+.text {
+    margin-left: 10px;
+}
+.section4 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1px;
+    background-color: #ffffff;
+    width: 800px;
+    max-width: 750px;
+    height: 300px;
+}
+.image1, .image2, .image3, .image4 {
+    position: relative;
+    margin-left: 20px;
+    background-color: #ffffff;
+    border-radius: 4.12px;
+    margin-top: 30px;
+    box-shadow: 0 18.06px 18.06px 0 rgba(0, 0, 0, 0.5);
+}
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    background-color: #545be8;
+    margin-top: 20px;
+    padding: 10px;
+}
+.usd h6 {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+h5 {
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #141e32;
+}
+h5 span {
+    margin-left: 5px;
+    color: #545be8;
+    font-weight: 400;
+}
+h6 span {
+    color: #969696;
+    font-weight: 400;
+    margin-left: 10px;
+}
+h6 {
+    color: #969696;
+    font-weight: 400;
+}
+.available h6 {
+    color: #545be8;
+    font-weight: 400;
+    font: inter;
+}
+.available {
+    margin-left: 35px;
+    background-color: #ffffff;
+}
+.available h3 {
+    font-weight: 700;
+    font: poppins;
+}
+.available p {
+    font-size: 10px;
+    font-weight: 400;
+}
+.available button {
+    background-color: #545be8;
+    width: 130px;
+    padding: 13px 13px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.testimonial {
+    margin: 30px;
+}

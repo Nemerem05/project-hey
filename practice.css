@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo-name {
+    width: 8px;
+    height: 7px;
+    font: roboto;
+    size: 5.77px;
+    line-height: 6.76px;
+    color: #545be8;
+    padding-left: 10px;
+}
+nav {
+display: flex;
+justify-content: space-around;
+padding-top: 10px;
+box-shadow: 0 1.65px 8.24px 0 rgba(0, 0, 0, 0.1);
+background-color: #ffffff;
+border: 0.41px;
+width: 100%;
+height: 32.95px;
+padding-bottom: 5px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    align-items: center;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.nav-links a {
+    font: poppins;
+    color: #101928;
+    size: 6.59px;
+    font-weight: 400;
+    line-height: 9.88px;
+    height: 10px;
+}
+.home a {
+    font-weight: 700;
+    width: 21px;
+}
+.about-us {
+    width: 30px;
+    white-space: nowrap;
+}
+.article a {
+    width: 21px;
+}
+.contact a {
+    width: 27px;
+}
+.course a {
+    width: 24px;
+}
+button {
+    margin: 0;
+cursor: pointer;
+padding: 5.35px 20.18px;
+width: 140.04px;
+border-radius: 4.12px;
+border: 0.41px;
+gap: 4.12px;
+}
+.Log-in {
+    color: #545be8;
+}
+.Register {
+    background-color: #545be8;
+    color: #ffffff;
+}
+.begin {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    box-shadow: 0 1.65px 8.24px 0 rgba(0, 0, 0, 0.1);
+    width: 593.08px;
+    height: 290.36px;
+    box-sizing: border-box;
+    top: 32.54px;
+    left: _0.82px;
+    background-color: #f5f5f5;
+    padding-left: 20px;
+}
+.begins p {
+    color:#545be8;
+    width: 100%;
+    height: 9px;
+    line-height: 8.97px;
+    font: inter;
+    font-weight: 400;
+    size: 7.41px;
+}
+p span {
+    font-weight: 700;
+}
+h3 {
+    font-weight: 700;
+    font-size: 35px;
+    font: poppins;
+}
+p {
+    font-size: 10px;
+    font-weight: 400;
+    color: #969696;
+}
+h3 span {
+    font-weight: 700;
+    color: #545be8;
+}
+.begin button {
+    margin: 0;
+    cursor: pointer;
+    width: 35%;
+    padding: 5.35px 20.18px;
+    font: inter;
+    border-radius: 4.12px;
+    border: 0.41px;
+    gap: 4.12px;
+    font-weight: 700;
+}
+.player {
+    white-space: nowrap;
+    color: #141e32;
+}
+.image {
+    position: absolute;
+    top: 65.49px;
+    left: 305.6px;
+}
